@@ -72,6 +72,6 @@ La direcció del centre ens demana una xarxa WiFi **segura**, **segmentada** i *
 
 ## 7. Documents relacionats
 
-- [Document de repte (Annex A)](document-repte.md)
+- [Document de repte (Annex A)](memoria/document-repte.md)
 - [Planificació i fitxes d'activitat](memoria/planificacio.md)
-- [Metodologia i normes del grup](metodologia.md)
+- [Metodologia i normes del grup](memoria/metodologia.md)

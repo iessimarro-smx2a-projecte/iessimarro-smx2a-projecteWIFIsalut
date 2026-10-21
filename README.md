@@ -7,9 +7,9 @@ Exemple de repositori Github per al projecte Intermodular de 2n SMX - WIFI SALUT
 Disseny i implementació d'una **xarxa WiFi segura i segmentada** per a un centre de salut de tres plantes: 6 punts d'accés UniFi 6 Lite gestionats des d'un controlador centralitzat, tres xarxes sense fil separades per VLANs (**Admin**, **Salut** i **Convidats**) i autenticació 802.1X del personal administratiu contra un servidor FreeRADIUS.
 
 - 📄 [Anàlisi inicial](docs/analisi-inicial.md)
-- 🎯 [Document de repte (Annex A)](docs/document-repte.md)
+- 🎯 [Document de repte (Annex A)](docs/memoria/document-repte.md)
 - 🗓️ [Planificació, cronograma i fitxes d'activitat](docs/memoria/planificacio.md)
-- 🤝 [Metodologia i normes del grup](docs/metodologia.md)
+- 🤝 [Metodologia i normes del grup](docs/memoria/metodologia.md)
 
 ## Membres i rols
 
@@ -36,39 +36,46 @@ Disseny i implementació d'una **xarxa WiFi segura i segmentada** per a un centr
 ## Estructura del repositori del projecte WIFI SALUT
 
 ```
-iessimarro-smx2a-projectewifisalut/
+wifi-salut-implementation/
 ├── README.md
 ├── docs/
-│   ├── analisi-inicial.md            (#1)
-│   ├── document-repte.md             (#1)
-│   ├── metodologia.md                (#1)
-│   ├── topologia-xarxa.md            (#2)
-│   ├── instalacio-fisica.md          (#5)
-│   ├── documentacio-cablejat.md      (#6)
-│   ├── instalacio-aps.md             (#7)
 │   ├── memoria/
-│   │   ├── planificacio.md           (#1)
-│   │   ├── memoria.md                (#21)
-│   │   ├── manual-usuari.md          (#22)
-│   │   └── manual-tecnic.md          (#23)
-│   └── presentacio/
-│       └── presentacio.md            (#24)
-├── planols/                          (#2)
+│   │   ├── memoria.md
+│   │   ├── planificacio.md
+│   │   ├── manual-usuari.md
+│   ├── presentacio/
+│   │   ├── presentacio.md
+├── planols/
 │   ├── planta-baixa.pdf
 │   ├── planta-primera.pdf
 │   └── planta-segona.pdf
 ├── configuracio/
-│   ├── vlans/                        (#4, #11)
-│   ├── radius/                       (#10)
-│   ├── unifi-controller/             (#9)
-│   └── ssids/                        (#12, #13, #14)
+│   ├── vlans/
+│   ├── radius/
+│   ├── unifi-controller/
+│   └── ssids/
 ├── scripts/
-│   └── backup/                       (#25)
+│   └── backup/
 ├── pressupost/
-│   └── pressupost-detallat.xlsx      (#3)
+│   └── pressupost-detallat.xlsx
 └── proves/
-    └── resultats-proves.md           (#16 a #20)
+    └── resultats-proves.md
 ```
+
+### On es desa cada lliurable
+
+Els lliurables de cada issue es desen dins d'aquesta estructura, a la ruta que indica l'apartat **Eixida** de la issue:
+
+| Issue | Lliurable | Ruta |
+| --- | --- | --- |
+| #1 | Anàlisi inicial | `docs/analisi-inicial.md` |
+| #1 | Document de repte (Annex A), planificació i metodologia | `docs/memoria/` |
+| #2 | Plànols i topologia de xarxa | `planols/` |
+| #3 | Pressupost i justificació | `pressupost/` |
+| #4 | Disseny de VLANs | `configuracio/vlans/` |
+| #5 | Instal·lació dels racks | `docs/instalacio-fisica.md` |
+| #6 | Documentació del cablejat | `docs/documentacio-cablejat.md` |
+| #7 | Instal·lació dels punts d'accés | `docs/instalacio-aps.md` |
 
 ## Elements del projecte a GITHUB Projects
 

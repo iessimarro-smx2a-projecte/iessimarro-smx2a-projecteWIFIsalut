@@ -79,7 +79,7 @@ Cada tasca té la seua fitxa amb els 8 camps obligatoris. El número d'activitat
 | Tasca (Què?) | Documentació de l'anàlisi inicial · issue #1 |
 | Per a què? (RA) | MP02-RA2 · PI-RA1 |
 | Com? | Individual · Responsable: AlumneA |
-| Suport/format | docs/analisi-inicial.md, docs/document-repte.md i README.md |
+| Suport/format | docs/analisi-inicial.md, docs/memoria/document-repte.md i README.md |
 | Instruccions | Visitar el centre → recollir l'estat actual → redactar requeriments → completar l'Annex A → actualitzar el README |
 | Recursos | Visita al centre, plantilla Annex A |
 | Quan? (Durada) | 4 h · Prèvia |
@@ -92,7 +92,7 @@ Cada tasca té la seua fitxa amb els 8 camps obligatoris. El número d'activitat
 | Tasca (Què?) | Plànols de plantes i topologia de xarxa · issue #2 |
 | Per a què? (RA) | MP02-RA2 |
 | Com? | Individual · Responsable: AlumneB |
-| Suport/format | planols/*.pdf i docs/topologia-xarxa.md |
+| Suport/format | planols/*.pdf i planols/topologia-xarxa.md |
 | Instruccions | Obtindre plànols → marcar 2 APs per planta → traçar rutes de cablejat → ubicar racks → dibuixar la topologia |
 | Recursos | Plànols del centre, Python/LibreOffice Draw, Packet Tracer |
 | Quan? (Durada) | 6 h · S1, S2 |
