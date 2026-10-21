@@ -28,14 +28,16 @@ Exemple:  RP-P1-PP03 / AP-P1-01
 | RP-P1-PP02 / AP-PB-02 | 2 | AP-PB-02 | Baixa | 22 m | 2 |
 | RP-P1-PP03 / AP-P1-01 | 3 | AP-P1-01 | Primera | 21 m | 3 |
 | RP-P1-PP04 / AP-P1-02 | 4 | AP-P1-02 | Primera | 18 m | 4 |
-| RP-P1-PP05 / AP-P2-01 | 5 | AP-P2-01 | Segona | 25 m | 17 |
-| RP-P1-PP06 / AP-P2-02 | 6 | AP-P2-02 | Segona | 22 m | 18 |
+| RP-P1-PP05 / AP-P2-01 | 5 | AP-P2-01 | Segona | 25 m | 5 |
+| RP-P1-PP06 / AP-P2-02 | 6 | AP-P2-02 | Segona | 22 m | 6 |
 | RP-P1-PP20 / RS-PB-T1 | 20 | Troncal rack RS-PB | Baixa | 10 m | 20 |
 | RP-P1-PP21 / RS-PB-T2 | 21 | Troncal rack RS-PB | Baixa | 10 m | — (reserva) |
 | RP-P1-PP22 / RS-P2-T1 | 22 | Troncal rack RS-P2 | Segona | 10 m | 21 |
 | RP-P1-PP23 / RS-P2-T2 | 23 | Troncal rack RS-P2 | Segona | 10 m | — (reserva) |
 
 Longitud total instal·lada: **174 m**.
+
+> ⚠ Els APs s'han de connectar sempre als **ports 1 a 16** del switch, que són els únics amb PoE+. Correcció aplicada a la issue #34: AP-P2-01 i AP-P2-02 estaven assignats als ports 17 i 18, sense PoE.
 
 ## 4. Passos realitzats
 
