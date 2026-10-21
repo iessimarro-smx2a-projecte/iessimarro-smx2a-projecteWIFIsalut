@@ -47,7 +47,7 @@ Cada issue es treballa en una branca pròpia i s'integra a `main` amb una *pull 
 docs/1-analisi-inicial
 feat/5-instalacio-racks
 feat/7-instalacio-aps
-fix/28-ap-sense-poe
+fix/34-aps-sense-poe
 ```
 
 ### Missatges de commit
