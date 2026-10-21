@@ -10,6 +10,10 @@ Disseny i implementació d'una **xarxa WiFi segura i segmentada** per a un centr
 - 🎯 [Document de repte (Annex A)](docs/memoria/document-repte.md)
 - 🗓️ [Planificació, cronograma i fitxes d'activitat](docs/memoria/planificacio.md)
 - 🤝 [Metodologia i normes del grup](docs/memoria/metodologia.md)
+- 🗺️ [Plànols](planols/) i [topologia de xarxa](planols/topologia-xarxa.md)
+- 💶 [Pressupost](pressupost/justificacio.md)
+- 🔀 [Disseny de VLANs](configuracio/vlans/disseny-vlans.md)
+- 🔧 [Racks](docs/instalacio-fisica.md), [cablejat](docs/documentacio-cablejat.md) i [punts d'accés](docs/instalacio-aps.md)
 
 ## Membres i rols
 
@@ -25,9 +29,9 @@ Disseny i implementació d'una **xarxa WiFi segura i segmentada** per a un centr
 
 | Fita | Issues | Estat |
 | --- | --- | --- |
-| inici | #1 | 🔄 En progrés |
-| Planificació i Anàlisi | #2, #3, #4 | 📋 Per fer |
-| Instal·lació Física | #5, #6, #7 | 📋 Per fer |
+| inici | #1 | ✅ Fet |
+| Planificació i Anàlisi | #2, #3, #4 | ✅ Fet |
+| Instal·lació Física | #5, #6, #7 (bug #34) | 👀 En revisió |
 | Configuració de Servidors | #8, #9, #10 | 📋 Per fer |
 | Configuració de Xarxa | #11 a #15 | 📋 Per fer |
 | Proves i Validació | #16 a #20 | 📋 Per fer |
