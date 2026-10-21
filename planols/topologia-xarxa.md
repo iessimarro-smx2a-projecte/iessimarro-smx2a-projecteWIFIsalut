@@ -7,9 +7,9 @@
 
 | Planta | Plànol | Punts d'accés | Rack |
 | --- | --- | --- | --- |
-| Baixa | [planta-baixa.pdf](../planols/planta-baixa.pdf) | AP-PB-01 (passadís de recepció), AP-PB-02 (davant d'urgències i sala d'espera) | RS-PB · secundari 6U (magatzem) |
-| Primera | [planta-primera.pdf](../planols/planta-primera.pdf) | AP-P1-01 (passadís de consultes), AP-P1-02 (davant d'infermeria) | **RP-P1 · principal 12U (sala tècnica)** |
-| Segona | [planta-segona.pdf](../planols/planta-segona.pdf) | AP-P2-01 (passadís d'administració), AP-P2-02 (davant de la sala de reunions) | RS-P2 · secundari 6U (arxiu) |
+| Baixa | [planta-baixa.pdf](planta-baixa.pdf) | AP-PB-01 (passadís de recepció), AP-PB-02 (davant d'urgències i sala d'espera) | RS-PB · secundari 6U (magatzem) |
+| Primera | [planta-primera.pdf](planta-primera.pdf) | AP-P1-01 (passadís de consultes), AP-P1-02 (davant d'infermeria) | **RP-P1 · principal 12U (sala tècnica)** |
+| Segona | [planta-segona.pdf](planta-segona.pdf) | AP-P2-01 (passadís d'administració), AP-P2-02 (davant de la sala de reunions) | RS-P2 · secundari 6U (arxiu) |
 
 ### Criteris d'ubicació dels APs
 
